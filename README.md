@@ -1,7 +1,7 @@
 # boscheasycontrol
 EasyControl Thermostat integration with HomeAssistant
 
-Based on [ EBECO ] (https://github.com/joggs/home_assistant_ebeco)
+Based on https://github.com/joggs/home_assistant_ebeco
 
 Custom component for using [Bosch EasyControl ](https://www.bosch-easycontrol.com/gb/en/easycontrol/overview/) thermostats in Home Assistant.
 
