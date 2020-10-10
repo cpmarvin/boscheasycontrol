@@ -1,7 +1,7 @@
 # boscheasycontrol
 EasyControl Thermostat integration with HomeAssistant
 
-[![hacs_badge][hacs-shield]][hacs]
+Based on [ EBECO ] (https://github.com/joggs/home_assistant_ebeco)
 
 Custom component for using [Bosch EasyControl ](https://www.bosch-easycontrol.com/gb/en/easycontrol/overview/) thermostats in Home Assistant.
 
@@ -14,7 +14,7 @@ In configuration.yaml:
 
 ```
 climate:
-  - platform: ebeco
+  - platform: boscheasycontrol
     access_token: "Bearer XXXXX"
     entity_id: "<SERIAL_NR>"
     name: "ROOM1"
