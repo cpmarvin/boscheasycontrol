@@ -24,3 +24,10 @@ climate:
 API details: https://developer.bosch.com/web/bosch-thermotechnology-device-api/overview
 
 You will need an developer account to register your device. For now the access_token is only available while you are log into their website. Hopefuly in the future this will change. 
+
+HOW TO GET the access_token( Bearer) :
+
+- log on to API website
+- click Register your device and input your serial , access code and password for easycontrol
+- click Tryout API and expand GET /gateways
+- Bearer key is in Authorization field 
