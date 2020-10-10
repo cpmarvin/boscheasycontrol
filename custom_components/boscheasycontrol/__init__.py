@@ -1,0 +1,1 @@
+"""Bosch EasyControl thermostat integration."""
